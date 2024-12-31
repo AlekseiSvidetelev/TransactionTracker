@@ -1,4 +1,4 @@
-from masks import get_mask_account, get_mask_card_number
+from src.masks import get_mask_account, get_mask_card_number
 
 
 def mask_account_card(card_number: str) -> str:
@@ -14,9 +14,9 @@ def mask_account_card(card_number: str) -> str:
         if not i.isdigit():
             symbols_count += 1
     if numbers_count == 16:
-        return f"{card_number[:symbols_count]}{get_mask_card_number(card_number[- numbers_count:])}"
+        return f"{card_number[: symbols_count]}{get_mask_card_number(card_number[- numbers_count:])}"
     elif numbers_count == 20:
-        return f"{card_number[:symbols_count]}{get_mask_account(card_number[- numbers_count:])}"
+        return f"{card_number[: symbols_count]}{get_mask_account(card_number[- numbers_count:])}"
 
 
 if __name__ == "__main__":
