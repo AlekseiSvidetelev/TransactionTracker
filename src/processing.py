@@ -1,6 +1,6 @@
 from typing import Union
 
-from src.get_date import format_date
+from src.widget import format_date
 
 
 def filter_by_state(
