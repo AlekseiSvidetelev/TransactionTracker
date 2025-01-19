@@ -1,12 +1,12 @@
 def get_mask_card_number(card_number: str) -> str:
-    """ Функцию маскировки номера банковской карты"""
+    """Функцию маскировки номера банковской карты"""
     if len(card_number) != 16 or card_number.isdigit() is not True:
-        return "Проверьте правильность ввода данных"
+        raise ValueError("Номер карты должен содержать 16 цифр.")
     else:
         i = 0
         part_number = []
         while True:
-            part = card_number[i:i+4]
+            part = card_number[i:i + 4]
             part_number.append(part)
             i += 4
             if i >= 16:
@@ -16,12 +16,7 @@ def get_mask_card_number(card_number: str) -> str:
 
 
 def get_mask_account(account_number: str) -> str:
-    """ Функцию маскировки номера банковского счета """
+    """Функцию маскировки номера банковского счета"""
     if len(account_number) != 20 or account_number.isdigit() is not True:
-        return "Проверьте правильность ввода данных"
+        raise ValueError("Номер счета должен содержать 20 цифр.")
     return f"**{account_number[-4:]}"
-
-
-if __name__ == "__main__":
-    print(get_mask_account("73654108430669958748"))
-    print(get_mask_card_number("7000792189606391"))
