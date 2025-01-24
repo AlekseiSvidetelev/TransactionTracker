@@ -63,6 +63,29 @@ def test_transaction_descriptions(transactions: List[Dict[str, Any]]) -> None:
             raise ValueError
 
 
+@pytest.mark.parametrize(
+    "x, y, expected",
+    [
+        (
+            1,
+            5,
+            [
+                "0000 0000 0000 0001",
+                "0000 0000 0000 0002",
+                "0000 0000 0000 0003",
+                "0000 0000 0000 0004",
+                "0000 0000 0000 0005",
+            ],
+        ),
+        (2, 4, ["0000 0000 0000 0002", "0000 0000 0000 0003"]),
+    ],
+)
+def test_card_number_generator_(x: int, y: int, expected: List[str]) -> None:
+    card_number = card_number_generator(x, y)
+    for expect in expected:
+        assert next(card_number) == expect
+
+
 def test_card_number_generator() -> None:
     """Тест генератора номеров банковских карт"""
     card_number = card_number_generator(1, 2)
@@ -80,7 +103,7 @@ def test_exception_card_number_generator():
     """Тест исключений вывода банковских карт"""
     for card_number in card_number_generator(3, 1):
         with pytest.raises(ValueError):
-             raise ValueError
+            raise ValueError
     for card_number in card_number_generator(1, 1234123412341234123):
         with pytest.raises(ValueError):
             raise ValueError
