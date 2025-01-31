@@ -229,3 +229,277 @@ test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1
 test_log_with_file_name: time execution - 0.000030. Result: None
 test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000002886A15CE90>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000002886A15CFC0>}ntest_log_with_file_name: time execution - 0.000004. Result: None
 test_log_with_file_name: time execution - 0.000012. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000025F4756CE90>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000025F4756CFC0>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000030. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000025191A79810>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000025191A79940>}ntest_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000031. Result: None
+test_log_with_file_name: error - . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000012E4B20CE90>}ntest_log_with_file_name: error - . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000012E4B20CFC0>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000014. Result: None
+test_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001F26E179810>}ntest_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001F26E179940>}ntest_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000085. Result: None
+test_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001C6D95A9810>}ntest_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001C6D95A9940>}ntest_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000018. Result: None
+test_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001FFCA0F9810>}ntest_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001FFCA0F9940>}ntest_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000032. Result: None
+test_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000018584DFCE90>}ntest_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000018584DFCFC0>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000016. Result: None
+test_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000024E20CA9400>}ntest_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000024E20D74A50>}ntest_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000101. Result: None
+test_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000011EB42B9400>}ntest_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000011EB4384A50>}ntest_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000091. Result: None
+test_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001C81C689160>}ntest_log_with_file_name: error - <class 'Exception'> . Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001C81C754A50>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000055. Result: None
+test_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000024E52439010>}ntest_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000024E52504A50>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000062. Result: None
+test_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001F5D2019400>}ntest_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001F5D20E4A50>}ntest_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.001416. Result: None
+test_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000023752F24590>}ntest_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000023752DE6D50>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000067. Result: None
+test_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001BADD82BA10>}ntest_log_with_file_name: error - 'x' должен быть больше 'y'. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001BADD9E96D0>}ntest_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000107. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: error - 'x' не должен быть равен 'y'. Input: (), {'x': 7, 'y': 7, 'expected': 14, 'expectation': <contextlib.nullcontext object at 0x0000023DC8B26FD0>}ntest_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000101. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000075. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000016. Result: None
+test_log_with_file_name: time execution - 0.000014. Result: None
+test_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000018. Result: None
+test_log_with_file_name: time execution - 0.000022. Result: None
+test_log_with_file_name: time execution - 0.000007. Result: None
+test_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000029. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000092. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000008. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000143. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000018. Result: None
+test_log_with_file_name: time execution - 0.000011. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000016. Result: None
+test_log_with_file_name: time execution - 0.000021. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000022. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000380. Result: None
+test_log_with_file_name: time execution - 0.000013. Result: None
+test_log_with_file_name: time execution - 0.000013. Result: None
+test_log_with_file_name: time execution - 0.000010. Result: None
+test_log_with_file_name: time execution - 0.000023. Result: None
+test_log_with_file_name: time execution - 0.000027. Result: None
+test_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000022. Result: None
+test_log_with_file_name: time execution - 0.000007. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000093. Result: None
+test_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000181FBCACE90>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000181FBCACFC0>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 7, 'y': 8, 'expected': 15, 'expectation': <contextlib.nullcontext object at 0x00000181FBC08950>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x00000181FBB86E90>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000220FFF9C9D0>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000220FFF9CB00>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 7, 'y': 8, 'expected': 15, 'expectation': <contextlib.nullcontext object at 0x00000220FFEA44D0>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x00000220FFF85A90>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001EE3D77CB00>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001EE3D77CC30>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 7, 'y': 8, 'expected': 15, 'expectation': <contextlib.nullcontext object at 0x000001EE3D6844D0>}ntest_log_with_file_name: error - log.<locals>.decorator() takes 1 positional argument but 2 were given. Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x000001EE3D765A90>}ntest_log_with_file_name: time execution - 0.000117. Result: None
+test_log_with_file_name: time execution - 0.000055. Result: None
+test_log_with_file_name: time execution - 0.000056. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000011CE1DD6E90>}ntest_log_with_file_name: time execution - 0.000068. Result: None
+test_log_with_file_name: time execution - 0.000081. Result: None
+test_log_with_file_name: time execution - 0.000068. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x000001CC6F345A90>}ntest_log_with_file_name: time execution - 0.000088. Result: None
+test_log_with_file_name: time execution - 0.000069. Result: None
+test_log_with_file_name: time execution - 0.000062. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000022E4EEC6FD0>}ntest_log_with_file_name: time execution - 0.000059. Result: None
+test_log_with_file_name: time execution - 0.000068. Result: None
+test_log_with_file_name: time execution - 0.000061. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x000001EAF04C6FD0>}ntest_log_with_file_name: time execution - 0.000163. Result: None
+test_log_with_file_name: time execution - 0.000080. Result: None
+test_log_with_file_name: time execution - 0.000141. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000020FDF71CCD0>}ntest_log_with_file_name: time execution - 0.000054. Result: None
+test_log_with_file_name: time execution - 0.000056. Result: None
+test_log_with_file_name: time execution - 0.000059. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x00000248B1936FD0>}nsum_arg_with_file_name: time execution - 0.000000. Result: 3
+test_log_with_file_name: time execution - 0.000856. Result: None
+sum_arg_with_file_name: time execution - 0.000000. Result: 9
+test_log_with_file_name: time execution - 0.000371. Result: None
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+test_log_with_file_name: time execution - 0.000177. Result: None
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}ntest_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000016BE55D0B90>}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+test_log_with_file_name: time execution - 0.000349. Result: None
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+test_log_with_file_name: time execution - 0.000408. Result: None
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+test_log_with_file_name: time execution - 0.000320. Result: None
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}ntest_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000020A2B786E90>}ntest_log_with_file_name: time execution - 0.000057. Result: None
+test_log_with_file_name: time execution - 0.000060. Result: None
+test_log_with_file_name: time execution - 0.000055. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000025B28406E90>}ntest_log_with_file_name: time execution - 0.000087. Result: None
+test_log_with_file_name: time execution - 0.000053. Result: None
+test_log_with_file_name: time execution - 0.000046. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x000001B3A8759950>}ntest_log_with_file_name: time execution - 0.000146. Result: None
+test_log_with_file_name: time execution - 0.000068. Result: None
+test_log_with_file_name: time execution - 0.000110. Result: None
+test_log_with_file_name: error - assert None == 'a'
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 'a', 'expectation': <_pytest.python_api.RaisesContext object at 0x0000022AEE3F0B90>}ntest_log_with_file_name: time execution - 0.000288. Result: None
+test_log_with_file_name: time execution - 0.000090. Result: None
+test_log_with_file_name: time execution - 0.000070. Result: None
+test_log_with_file_name: error - assert None == 'a'
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 'a', 'expectation': <_pytest.python_api.RaisesContext object at 0x00000219AA710B90>}ntest_log_with_file_name: time execution - 0.000147. Result: None
+test_log_with_file_name: time execution - 0.000078. Result: None
+test_log_with_file_name: time execution - 0.000056. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000024F95C70B90>}ntest_log_with_file_name: time execution - 0.000229. Result: None
+test_log_with_file_name: time execution - 0.000078. Result: None
+test_log_with_file_name: time execution - 0.000075. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x000001F621250B90>}ntest_log_with_file_name: time execution - 0.000104. Result: None
+test_log_with_file_name: time execution - 0.000038. Result: None
+test_log_with_file_name: time execution - 0.000037. Result: None
+test_log_with_file_name: error - assert None == 2
+ +  where None = sum_arg_with_file_name(1, 1). Input: (), {'x': 1, 'y': 1, 'expected': 2, 'expectation': <_pytest.python_api.RaisesContext object at 0x0000015A30D30B90>}ntest_log_with_file_name: time execution - 0.000148. Result: None
+test_log_with_file_name: time execution - 0.000064. Result: None
+test_log_with_file_name: time execution - 0.000069. Result: None
+test_log_with_file_name: time execution - 0.000214. Result: None
+test_log_with_file_name: time execution - 0.000465. Result: None
+test_log_with_file_name: time execution - 0.000070. Result: None
+test_log_with_file_name: time execution - 0.000052. Result: None
+test_log_with_file_name: time execution - 0.000051. Result: None
+test_log_with_file_name: time execution - 0.000069. Result: None
+sum_arg_with_file_name: time execution - 0.000000. Result: 3
+sum_arg_with_file_name: time execution - 0.000000. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: time execution - 0.000002. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000004. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: time execution - 0.000004. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000000. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: time execution - 0.000000. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (2, 2), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (2, 2), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (2, 2), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (2, 2), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (2, 2), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000003. Result: 3
+sum_arg_with_file_name: time execution - 0.000003. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: time execution - 0.000002. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000002. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: time execution - 0.000004. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000002. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000004. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000002. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000004. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000000. Result: 9
+sum_arg_with_file_name: time execution - 0.000000. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000002. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000005. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}n

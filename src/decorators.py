@@ -31,7 +31,7 @@ def log(filename: Optional[str] = None) -> Any:
                 log_message = f"{func.__name__}: time execution - {end_time - start_time:7f}. Result: {result}"
                 if filename:
                     with open(os_path_join(PATH_TO_FILE, filename), "a") as file:
-                        file.write(log_message + "\n")
+                        file.write(str(log_message) + "\n")
                 else:
                     print(log_message)
                 return result
@@ -39,10 +39,9 @@ def log(filename: Optional[str] = None) -> Any:
                 log_message = f"{func.__name__}: error - {str(e)}. Input: {args}, {kwargs}"
                 if filename:
                     with open(os_path_join(PATH_TO_FILE, filename), "a") as file:
-                        file.write(log_message + "n")
+                        file.write(str(log_message) + "n")
                 else:
                     print(log_message)
-
         return wrapper
 
     return decorator
