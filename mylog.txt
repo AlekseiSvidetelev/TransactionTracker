@@ -1,0 +1,231 @@
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OKmy_function error: Значения должны быть больше 0. Inputs: ((-1, 2), {})
+ my_function OK
+ my_function OKmy_function error: Values must be greater zero.. Inputs: ((-1, 2), {})
+ my_function OK
+ my_function OKmy_function error: Values must be greater zero. Inputs: ((-1, 2), {})
+ my_function OK
+ my_function OKmy_function error: Values must be greater zero. Inputs: ((-1, 2), {})
+ my_function OK
+ my_function OKmy_function error: Values must be greater zero. Inputs: ((-1, 2), {})
+ test_log OK
+ my_function OK
+ my_function OKmy_function error: Values must be greater zero. Inputs: ((-1, 2), {})
+ my_function OK
+ my_function OKmy_function error: Values must be greater zero. Inputs: ((-1, 2), {})
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ my_function OK
+ test_log_file_name OK
+ test_log_file_name OK
+ test_log_file_name OK
+ test_errors OK
+ test_log_file_name OK
+ test_errors OK
+ test_log_file_name OK
+ test_errors OK
+ test_log_file_name OK
+ test_errors OK
+ test_log_file_name OK
+ test_errors OK
+ test_errors OK
+ test_errors OK
+ test_log_file_name OK
+ test_errors OK
+ test_log_file_name OK
+ test_errors OK
+ test_log_file_name OK
+ test_errors OK
+ test_errors OK
+ test_errors OK
+ test_errors OK
+ my_function OKmy_function error: . Inputs: ((4, 9), {})
+ my_function OKmy_function error: . Inputs: ((4, 9), {})
+ my_function OKmy_function error: . Inputs: ((4, 9), {})
+ my_function OK
+ my_function OKmy_function error: division by zero. Inputs: ((4, 0), {})
+ my_function OKmy_function error: division by zero. Inputs: ((3, 0), {})
+ my_function OKmy_function error: division by zero. Inputs: ((3, 0), {})
+ my_function OKmy_function error: division by zero. Inputs: ((3, 0), {})
+ my_function OKmy_function error: неправильный тип данных. Inputs: ((3, 4), {})
+ my_function OKmy_function error: неправильный тип данных. Inputs: ((3, 4), {})
+ my_function OKmy_function started at 1738233130.9335518 and finished at 1738233130.9335532 with result: 1.5
+test_log_file_name: time execution - 0.000024. Result: None
+test_log_file_name: time execution - 0.000097. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name error: assert 14 == 24
+ +  where 14 = my_function(7, 7). Input: (), {'x': 7, 'y': 7, 'expected': 24, 'expectation': <contextlib.nullcontext object at 0x000001CD4C6CCB90>}ntest_log_with_file_name: time execution - 0.000091. Result: None
+test_log_with_file_name: time execution - 0.000013. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name error: assert 14 == 24
+ +  where 14 = my_function(7, 7). Input: (), {'x': 7, 'y': 7, 'expected': 24, 'expectation': <contextlib.nullcontext object at 0x000002A5710503B0>}ntest_log_with_file_name: time execution - 0.000018. Result: None
+test_log_with_file_name: time execution - 0.000020. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name error: assert 14 == 24
+ +  where 14 = my_function(7, 7). Input: (), {'x': 7, 'y': 7, 'expected': 24, 'expectation': <contextlib.nullcontext object at 0x00000269236343B0>}ntest_log_with_file_name: time execution - 0.000068. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name error: assert 14 == 24
+ +  where 14 = my_function(7, 7). Input: (), {'x': 7, 'y': 7, 'expected': 24, 'expectation': <contextlib.nullcontext object at 0x0000024EB2A88A70>}ntest_log_with_file_name: time execution - 0.000063. Result: None
+test_log_with_file_name: time execution - 0.000029. Result: None
+test_log_with_file_name: time execution - 0.000008. Result: None
+test_log_with_file_name error: assert 14 == 24
+ +  where 14 = my_function(7, 7). Input: (), {'x': 7, 'y': 7, 'expected': 24, 'expectation': <contextlib.nullcontext object at 0x000001EF508B03B0>}ntest_log_with_file_name: time execution - 0.000025. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name error: assert 14 == 24
+ +  where 14 = my_function(7, 7). Input: (), {'x': 7, 'y': 7, 'expected': 24, 'expectation': <contextlib.nullcontext object at 0x000001F2F781D910>}ntest_log_with_file_name: time execution - 0.000015. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000017. Result: None
+test_log_with_file_name: time execution - 0.000007. Result: None
+test_log_with_file_name: time execution - 0.000007. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000092. Result: None
+my_function: time execution - 0.000001. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}nmy_function: time execution - 0.000001. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}nmy_function: time execution - 0.000001. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}nmy_function: time execution - 0.000002. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000001. Result: None
+test_log_with_file_name: time execution - 0.000010. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000001. Result: None
+test_log_with_file_name: time execution - 0.000011. Result: None
+my_function: time execution - 0.000001. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}nmy_function: time execution - 0.000002. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000001. Result: None
+test_log_with_file_name: time execution - 0.000009. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000019. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000015. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000016. Result: None
+my_function: time execution - 0.000001. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}nmy_function: time execution - 0.000001. Result: 1.0
+my_function error: Неправильный тип данных. Input: (3, 4), {}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000012. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000096. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000014. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000016. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000013. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000017. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000017. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000015. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000015. Result: None
+test_log_with_file_name: time execution - 0.000019. Result: None
+test_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000029. Result: None
+test_log_with_file_name: time execution - 0.000007. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000109. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000012. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000018. Result: None
+test_log_with_file_name: time execution - 0.000020. Result: None
+test_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000023. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000010. Result: None
+test_log_with_file_name: time execution - 0.000013. Result: None
+test_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000017. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001A87BC60D60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001A87BC60E90>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000012. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001395C2AC9D0>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001395C2ACB00>}ntest_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000028. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000193A7ABCB00>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000193A7ABCC30>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000016. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000002B64AEACD60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000002B64AEACE90>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000010. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000273C419CD60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000273C419CE90>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000014. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000002735DE7CD60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000002735DE7CE90>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000018. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000002776ED98D60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000002776ED98E90>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000008. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000198E32D8D60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000198E32D8E90>}ntest_log_with_file_name: time execution - 0.000003. Result: None
+test_log_with_file_name: time execution - 0.000015. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001D365BA8D60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001D365BA8E90>}ntest_log_with_file_name: time execution - 0.000001. Result: None
+test_log_with_file_name: time execution - 0.000010. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000184A63DCD60>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000184A63DCE90>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000067. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001D2E0F04E90>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001D2E0F04FC0>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000027. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000020CB0D0CE90>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000020CB0D0CFC0>}ntest_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000027. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001C1FD6DCB00>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001C1FD6DCC30>}ntest_log_with_file_name: time execution - 0.000006. Result: None
+test_log_with_file_name: time execution - 0.000022. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001832C4A8E90>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001832C4A8FC0>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000011. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000233DDD6CB00>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000233DDD6CC30>}ntest_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000022. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x00000286A875CC30>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x00000286A875CD60>}ntest_log_with_file_name: time execution - 0.000005. Result: None
+test_log_with_file_name: time execution - 0.000020. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x0000025676718E90>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x0000025676718FC0>}ntest_log_with_file_name: time execution - 0.000002. Result: None
+test_log_with_file_name: time execution - 0.000013. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000001A13119CB00>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000001A13119CC30>}ntest_log_with_file_name: time execution - 0.000008. Result: None
+test_log_with_file_name: time execution - 0.000030. Result: None
+test_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 1, 'y': 2, 'expected': 3, 'expectation': <contextlib.nullcontext object at 0x000002886A15CE90>}ntest_log_with_file_name: error - Values must be greater zero. Input: (), {'x': 4, 'y': 5, 'expected': 9, 'expectation': <contextlib.nullcontext object at 0x000002886A15CFC0>}ntest_log_with_file_name: time execution - 0.000004. Result: None
+test_log_with_file_name: time execution - 0.000012. Result: None
