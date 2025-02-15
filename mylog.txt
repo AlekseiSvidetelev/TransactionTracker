@@ -553,4 +553,31 @@ sum_arg_with_file_name: time execution - 0.000003. Result: 15
 sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000003. Result: 3
 sum_arg_with_file_name: time execution - 0.000004. Result: 9
 sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000003. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000003. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000003. Result: 3
+sum_arg_with_file_name: time execution - 0.000003. Result: 9
+sum_arg_with_file_name: time execution - 0.000003. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000003. Result: 3
+sum_arg_with_file_name: time execution - 0.000005. Result: 9
+sum_arg_with_file_name: time execution - 0.000005. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000005. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000003. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000007. Result: 3
+sum_arg_with_file_name: time execution - 0.000003. Result: 9
+sum_arg_with_file_name: time execution - 0.000002. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000002. Result: 3
+sum_arg_with_file_name: time execution - 0.000002. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
+sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}nsum_arg_with_file_name: time execution - 0.000001. Result: 3
+sum_arg_with_file_name: time execution - 0.000001. Result: 9
+sum_arg_with_file_name: time execution - 0.000001. Result: 15
 sum_arg_with_file_name: error - 'x' не должен быть равен 'y'. Input: (1, 1), {}n
