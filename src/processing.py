@@ -7,7 +7,7 @@ def filter_by_state(
     """Функция для фильтрации списка словарей по состоянию"""
     filter_list = []
     for dictionary in dict_list:
-        if dictionary["state"] == state:
+        if dictionary.get("state", "") == state:
             filter_list.append(dictionary)
     return filter_list
 
