@@ -24,8 +24,14 @@ def mask_account_card(card_number: str) -> str:
 
 def format_date(date: str) -> str:
     """Функция для преобразования формата даты"""
-    if len(date) >= 10:
-        date_format = datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.%f")
+    try:
+        get_date = date[:10]
+        date_format = datetime.strptime(get_date, "%Y-%m-%d")
         new_date_str = date_format.strftime("%d.%m.%Y")
         return new_date_str
-    raise ValueError("Неправильный тип данных")
+    except Exception as e:
+        raise Exception(f"Ошибка {Exception}: {e}")
+
+
+if __name__ == "__main__":
+    print(format_date("2020-10-06T23:30:05Z"))
